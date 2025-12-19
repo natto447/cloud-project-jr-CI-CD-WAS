@@ -1,0 +1,46 @@
+# ========================
+# Arquivos sensíveis
+# ========================
+*.pem
+*.key
+*.crt
+*.env
+*.tfvars
+
+# ========================
+# Terraform local
+# ========================
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfplan
+*.tfplan
+
+# ========================
+# Logs e cache
+# ========================
+*.log
+*.out
+*.bak
+*.swp
+
+# ========================
+# IDEs
+# ========================
+.vscode/
+.idea/
+*.iml
+
+# ========================
+# Sistema operacional
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Node / Python / outros
+# ========================
+node_modules/
+__pycache__/
+*.pyc
